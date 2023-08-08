@@ -1,0 +1,47 @@
+  /* .navbar{
+    background-color:blue;
+  } */
+
+  .navbar-custom{
+    background-color: #69b0c1;
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+  .navbar-text{
+    color:white;
+    text-decoration: none;
+    border: white solid 1px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    text-align: left;
+
+  }
+
+  .navbar-brand {
+    color: pink;
+  }
+
+  .navbar-text:hover{
+    /* box-shadow: 2px -5px 5px pink; */
+    /* box-shadow: -2px 5px 5px lightblue; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 7px 15px -3px inset, rgba(0, 0, 0, 0.3) 0px 4px 9px -4px inset;
+    text-shadow: 1px 1px 2px #00748B;
+  }
+
+  .active{
+    /* border-bottom: solid 2px #00468B; */
+    box-shadow: 0px 5px #00468B;
+  }
+
+  .active:hover{
+    box-shadow: 0px 5px #00468B, rgba(50, 50, 93, 0.25) 0px 7px 15px -3px inset, rgba(0, 0, 0, 0.3) 0px 4px 9px -4px inset;
+    text-shadow: 1px 1px 2px #00748B;
+  }
+
