@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+    /* background-color: #43614c; */
+    /* background-color: #324738; */
+    background-color: rgb(61, 68, 53);
 }
 
 .App-logo {
@@ -42,6 +45,52 @@
     box-shadow: none;
 }
 
-p{
-    margin: 20px;
+.par1{
+    text-align: justify;
+    margin: 10px;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(67, 97, 76), #324738);
+    color: #999b9a;
+    border-radius: 25px;
 }
+
+p{
+    text-align: justify;
+    margin: 10px;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(67, 97, 76), #324738);
+    color: #999b9a;
+    border-radius: 25px;
+}
+
+.par2left{
+    color: #999b9a;
+    border-radius: 25px;
+}
+
+.par2right{
+    color: #999b9a;
+    border-radius: 25px;
+}
+
+
+
+h2, h4{
+    padding: 20px;
+    margin: 10px;
+    color: #7a7d7b;
+    text-shadow: 2px 2px 2px #4c4361;
+    /* text-shadow: 2px 2px 2px #614c43; */
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+hr {
+    color: #999b9a;
+}
+

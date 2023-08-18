@@ -4,31 +4,141 @@ function Home() {
 
 
     return (
-      <div className="Home">
-        <h2>Jonathan Stern</h2>
-        <br></br>
-        <p>Brooklyn, NY - 201.906.0125 - <a href="jstern718@gmail.com">Email</a> - <a href="">LinkedIn</a> - <a href="https://github.com/jstern718">GitHub</a></p>
-        <div className="text-start">
-            <p>Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
-            magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
-            proident. Ad sit nisi ut cupidatat. Anim nostrud elit labore irure adipisicing
-            excepteur culpa voluptate enim cillum occaecat magna officia. Sint officia
-            consectetur nostrud eiusmod ex irure deserunt in ad cillum magna in dolor.
-            Veniam enim laborum consequat ut in magna anim laboris proident. Ad sit
-            nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
-            culpa voluptate enim cillum occaecat magna officia.</p>
-        </div>
-        <br></br>
-        <h4>Education</h4>
-        <br></br>
-        <p>Rithm School - July 2023</p>
-        <p>Full Stack Web Development Bootcamp - Remote</p> -
-        <p>Boston University School of Law - Boston, MA</p>
-        <p>J.D. - May 2014</p> -
-        <p>Columbia University - New York, NY</p>
-        <p>B.A. History - May 2007</p>
+        <div className="Home">
+            <div>
+                <h2>The Iris Center for Psychotherapy</h2>
+                <br></br>
+            </div>
 
-      </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 par2left">
+                        <p>As a therapist, I think it’s important to pay attention to the stories that
+                            we tell ourselves about our lives. Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
+                            magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
+                            proident. Ad sit nisi ut cupidatat. Anim nostrud elit labore irure adipisicing
+                            excepteur culpa voluptate enim cillum occaecat magna officia. Sint officia
+                            consectetur nostrud eiusmod ex irure deserunt in ad cillum magna in dolor.
+                            Veniam enim laborum consequat ut in magna anim laboris proident. Ad sit
+                            nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
+                            culpa voluptate enim cillum occaecat magna officia.</p>
+                    </div>
+                    <div class="col-3 par2right">
+                        <p class="text-center">
+                            <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
+                                Get in touch to set up a FREE consultation
+                            </a>
+                            <br/>
+                            - or -
+                            <br/>
+                            Give us a call at:
+                            <br/>
+                            (833) 696-0921
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <hr/>
+
+            <div class="container" id="WhoIsThisFor">
+                <div class="row">
+                    <h4>Who is this for?</h4>
+                </div>
+                <div class="row par1">
+                    <p> Are you dealing with challenges or problems that make you
+                        feel like you are not in control of your own narrative?
+                        When you talk to yourself, are you sometimes less than
+                        kind?
+                        Do you feel unsure of where your story might be
+                        headed next?
+                        <br/>
+                        Sint officia consectetur nostrud eiusmod ex irure
+                        deserunt in ad cillum magna in dolor. Veniam enim
+                        laborum consequat ut in magna anim laboris proident.
+                        Ad sit nisi ut cupidatat. Anim nostrud elit labore
+                        irure adipisicing excepteur culpa voluptate enim cillum
+                        occaecat magna officia. Sint officia consectetur nostrud
+                        eiusmod ex irure deserunt in ad cillum magna in dolor.
+                        Veniam enim laborum consequat ut in magna anim laboris
+                        proident. Ad sit nisi ut cupidatat. Anim nostrud elit
+                        labore irure adipisicing excepteur culpa voluptate enim
+                        cillum occaecat magna officia.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 mt-2 par2left">
+                        <img src={"/images/rain.jpeg"} class="img-fluid"/>
+                    </div>
+                    <div class="col-6 par2right">
+                        <p>
+                        <span style={{color:"#7a7d7b", fontSize:"larger"}}>
+                        We specialize in treating:</span><br/>
+                            <ul>
+                                <br/>
+                                <li>Anxiety</li>
+                                <li>Trauma and PTSD</li>
+                                <li>Depression</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <span style={{color:"#7a7d7b", fontSize:"larger"}}>
+                                Additional Areas of Expertise:</span><br/>
+                            <ul>
+                                <br/>
+                                <li>ADHD</li>
+                                <li>Child</li>
+                                <li>Grief</li>
+                                <li>LGBTQ+</li>
+                                <li>Life Transitions</li>
+                                <li>Mood Disorders</li>
+                                <li>Parenting</li>
+                                <li>Peer Relationships</li>
+                                <li>Racial Identity</li>
+                                <li>Relationship Issues</li>
+                                <li>School Issues</li>
+                                <li>Self Esteem</li>
+                                <li>Self-Harming</li>
+                                <li>Sexual Abuse</li>
+                                <li>Stress</li>
+                                <li>Suicidal Ideation</li>
+                                <li>Women's Issues</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <hr/>
+
+            <div class="container" id="HowCanWeHelp">
+                <h4>How can we help?</h4>
+                <p>My approach to treatment is to provide a safe and protected
+                    space to help you nurture and develop your most authentic
+                    self. In our work together, I would use a client-centered,
+                    collaborative approach to identify the parts of your story
+                    that may need “editing” and then address those areas using
+                    evidence-based, trauma informed, culturally sensitive
+                    therapeutic approaches (like Cognitive Behavioral Therapy).</p>
+            </div>
+
+            <br/>
+            <hr/>
+
+            <div class="container" id="WhyUs">
+                <h4>Why us?</h4>
+                <p>I have over ten years of experience working with adolescents
+                    and adults on a variety of concerns, such as trauma,
+                    depression, anxiety, & harm reduction. In my work with
+                    clients, I invite conversations about systemic inequality
+                    (i.e., racism, sexism, homophobia, transphobia) and I
+                    encourage clients to explore their concerns in these larger
+                    systemic contexts.</p>
+            </div>
+        </div>
     );
   }
 
