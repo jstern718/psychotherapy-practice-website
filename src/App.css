@@ -71,7 +71,6 @@ p{
 .par2rightA{
     color: #999b9a;
     border-radius: 25px;
-    margin-left: -20%;
 
 }
 
@@ -94,18 +93,29 @@ h4{
     /* text-shadow: 2px 2px 2px #614c43; */
 }
 
-h2{
+h3{
     padding: 20px;
-    margin: 10px;
     color: #9AA6BF;
     text-shadow: 3px -2px 2px #393E47;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-top:25vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
     position: absolute;
-    text-align: center;
-    font-size: 4em;
+    justify-content: center;
+    font-size: 4.8vw;
+}
+
+h2{
+    padding: 20px;
+    color: #9AA6BF;
+    text-shadow: 3px -2px 2px #393E47;
+    margin-top:12vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    position: absolute;
+    justify-content: center;
+    font-size: 6.5vw;
+
 }
 
 hr {
@@ -113,5 +123,9 @@ hr {
 }
 
 .hero{
+    display:flex;
+}
 
+li{
+    font-size: small;
 }

@@ -6,14 +6,15 @@ function Home() {
     return (
         <div className="Home">
             <div class="hero">
-                <h2>The Iris Center for Psychotherapy</h2>
+                <h2>Cynthia Cabral, PhD</h2>
+                <h3>Licensed Clinical Psychologist</h3>
                 <img src={"/images/bloomHorizontal.jpeg"} class="img-fluid"/>
                 <br></br>
             </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-6 par2left">
+                    <div class="col-7 par2left">
                         <p>As a therapist, I think it’s important to pay attention to the stories that
                             we tell ourselves about our lives. Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
                             magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
@@ -23,25 +24,33 @@ function Home() {
                             Veniam enim laborum consequat ut in magna anim laboris proident. Ad sit
                             nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
                             culpa voluptate enim cillum occaecat magna officia.</p>
+                            <div>
+                                <p class="text-center">
+                                    <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
+                                        Get in touch to set up a FREE consultation
+                                    </a>
+                                    <br/>
+                                    - or -
+                                    <br/>
+                                    Give me a call at:
+                                    <br/>
+                                    (833) 696-0921
+                                </p>
+
+                            </div>
                     </div>
-                    <div class="col-6 row">
-                        <div class="col-5 mt-2 flowerDrawing">
-                            <img src={"/images/flowerDrawing.png"} class="img-fluid"/>
+
+
+                    <div class="col-5 row">
+                        <div class="par2rightA">
+                            <img src={"/images/cin_headshot.jpeg"} class="img-fluid"/>
                         </div>
-                        <div class="col-7 par2rightA">
-                            <p class="text-center">
-                                <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
-                                    Get in touch to set up a FREE consultation
-                                </a>
-                                <br/>
-                                - or -
-                                <br/>
-                                Give us a call at:
-                                <br/>
-                                (833) 696-0921
-                            </p>
-                        </div>
+
+
+
+
                     </div>
+
 
 
                 </div>
@@ -50,7 +59,7 @@ function Home() {
             <br/>
             <hr/>
 
-            <div class="container" id="WhoIsThisFor">
+            <div class="container" id="WhoThisIsFor">
                 <div class="row">
                     <h4>Who is this for?</h4>
                 </div>
@@ -125,6 +134,21 @@ function Home() {
                             </p>
 
                         </div>
+                        <div>
+                                <p class="text-center">
+                                        Find out how I can help you take control:
+                                    <br/>
+                                    <br/>
+                                    <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
+                                        Set up a FREE consultation
+                                    </a>
+                                    <br/>
+                                    - or -
+                                    <br/>
+                                    Call (833) 696-0921
+                                </p>
+
+                            </div>
                     </div>
                 </div>
             </div>
@@ -132,7 +156,7 @@ function Home() {
             <br/>
             <hr/>
 
-            <div class="container" id="HowCanWeHelp">
+            <div class="container" id="HowICanHelp">
                 <h4>How can we help?</h4>
                 <p>My approach to treatment is to provide a safe and protected
                     space to help you nurture and develop your most authentic

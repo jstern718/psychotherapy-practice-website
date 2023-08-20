@@ -7,10 +7,9 @@ function NavBar() {
     return (
         <nav className="NavBar navbar-expand-lg navbar navbar-custom container-fluid justify-content-start">
             <NavLink to="/" className={({ isActive }) => isActive ? "active navbar-text" : "navbar-text"}> Home </NavLink>
-            <NavHashLink to="/#WhoIsThisFor" className="navbar-text"> Who is this for? </NavHashLink>
-            <NavHashLink to="/#HowCanWeHelp" className="navbar-text"> How we can help? </NavHashLink>
-            <NavHashLink to="/#WhyUs" className="navbar-text"> Why Us? </NavHashLink>
-            <NavLink to="/Projects" className="navbar-text"> Who we are </NavLink>
+            <NavHashLink to="/#WhoThisIsFor" className="navbar-text"> Who this is for </NavHashLink>
+            <NavHashLink to="/#HowICanHelp" className="navbar-text"> How I can help </NavHashLink>
+            <NavLink to="/Projects" className="navbar-text"> About Me </NavLink>
             <NavLink to="/Projects" className="navbar-text"> Resources </NavLink>
             <NavLink to="/Projects" className="navbar-text"> Public Speaking </NavLink>
         </nav>);
