@@ -68,14 +68,25 @@ p{
     border-radius: 25px;
 }
 
-.par2right{
+.par2rightA{
+    color: #999b9a;
+    border-radius: 25px;
+    margin-left: -20%;
+
+}
+
+.par2rightB{
     color: #999b9a;
     border-radius: 25px;
 }
 
+.flowerDrawing{
 
+    margin-left: -5%;
+    z-index: 1;
+}
 
-h2, h4{
+h4{
     padding: 20px;
     margin: 10px;
     color: #7a7d7b;
@@ -84,13 +95,23 @@ h2, h4{
 }
 
 h2{
+    padding: 20px;
+    margin: 10px;
+    color: #9AA6BF;
+    text-shadow: 3px -2px 2px #393E47;
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
 }
 
 hr {
     color: #999b9a;
 }
 
+.hero{
+
+}

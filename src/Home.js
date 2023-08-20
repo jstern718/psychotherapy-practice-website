@@ -5,14 +5,15 @@ function Home() {
 
     return (
         <div className="Home">
-            <div>
+            <div class="hero">
                 <h2>The Iris Center for Psychotherapy</h2>
+                <img src={"/images/bloomHorizontal.jpeg"} class="img-fluid"/>
                 <br></br>
             </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-9 par2left">
+                    <div class="col-6 par2left">
                         <p>As a therapist, I think it’s important to pay attention to the stories that
                             we tell ourselves about our lives. Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
                             magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
@@ -23,19 +24,26 @@ function Home() {
                             nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
                             culpa voluptate enim cillum occaecat magna officia.</p>
                     </div>
-                    <div class="col-3 par2right">
-                        <p class="text-center">
-                            <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
-                                Get in touch to set up a FREE consultation
-                            </a>
-                            <br/>
-                            - or -
-                            <br/>
-                            Give us a call at:
-                            <br/>
-                            (833) 696-0921
-                        </p>
+                    <div class="col-6 row">
+                        <div class="col-5 mt-2 flowerDrawing">
+                            <img src={"/images/flowerDrawing.png"} class="img-fluid"/>
+                        </div>
+                        <div class="col-7 par2rightA">
+                            <p class="text-center">
+                                <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
+                                    Get in touch to set up a FREE consultation
+                                </a>
+                                <br/>
+                                - or -
+                                <br/>
+                                Give us a call at:
+                                <br/>
+                                (833) 696-0921
+                            </p>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
 
@@ -69,10 +77,10 @@ function Home() {
                 </div>
 
                 <div class="row">
-                    <div class="col-6 mt-2 par2left">
+                    <div class="col-7 mt-2 par2left">
                         <img src={"/images/rain.jpeg"} class="img-fluid"/>
                     </div>
-                    <div class="col-6 par2right">
+                    <div class="col-5 par2rightB">
                         <p>
                         <span style={{color:"#7a7d7b", fontSize:"larger"}}>
                         We specialize in treating:</span><br/>
@@ -83,30 +91,40 @@ function Home() {
                                 <li>Depression</li>
                             </ul>
                         </p>
-                        <p>
-                            <span style={{color:"#7a7d7b", fontSize:"larger"}}>
+                        <div>
+                            <p>
+                                <span style={{color:"#7a7d7b", fontSize:"larger"}}>
                                 Additional Areas of Expertise:</span><br/>
-                            <ul>
-                                <br/>
-                                <li>ADHD</li>
-                                <li>Child</li>
-                                <li>Grief</li>
-                                <li>LGBTQ+</li>
-                                <li>Life Transitions</li>
-                                <li>Mood Disorders</li>
-                                <li>Parenting</li>
-                                <li>Peer Relationships</li>
-                                <li>Racial Identity</li>
-                                <li>Relationship Issues</li>
-                                <li>School Issues</li>
-                                <li>Self Esteem</li>
-                                <li>Self-Harming</li>
-                                <li>Sexual Abuse</li>
-                                <li>Stress</li>
-                                <li>Suicidal Ideation</li>
-                                <li>Women's Issues</li>
-                            </ul>
-                        </p>
+                                <div class="row">
+                                <ul class="col-6">
+                                    <br/>
+                                    <li>ADHD</li>
+                                    <li>Child</li>
+                                    <li>Grief</li>
+                                    <li>LGBTQ+</li>
+                                    <li>Life Transitions</li>
+                                    <li>Mood Disorders</li>
+                                    <li>Parenting</li>
+                                    <li>Peer Relationships</li>
+                                    <li>Racial Identity</li>
+                                </ul>
+
+                                <ul class="col-6">
+                                    <br/>
+                                    <li>Relationship Issues</li>
+                                    <li>School Issues</li>
+                                    <li>Self Esteem</li>
+                                    <li>Self-Harming</li>
+                                    <li>Sexual Abuse</li>
+                                    <li>Stress</li>
+                                    <li>Suicidal Ideation</li>
+                                    <li>Women's Issues</li>
+                                </ul>
+                                </div>
+
+                            </p>
+
+                        </div>
                     </div>
                 </div>
             </div>
