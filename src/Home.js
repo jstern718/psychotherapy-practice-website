@@ -5,16 +5,16 @@ function Home() {
 
     return (
         <div className="Home">
-            <div class="hero">
-                <h2>Cynthia Cabral, PhD</h2>
-                <h3>Licensed Clinical Psychologist</h3>
-                <img src={"/images/bloomHorizontal.jpeg"} class="img-fluid"/>
+            <div className="hero">
+                <h2 className="name">Cynthia Cabral, PhD</h2>
+                <h3 className="title">Licensed Clinical Psychologist</h3>
+                {/* <img src={"/images/bloomHorizontal.jpeg"} className="img-fluid"/> */}
                 <br></br>
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-7 par2left">
+            <div className="container">
+                <div className="row">
+                    <div className="col-7 par2left">
                         <p>As a therapist, I think it’s important to pay attention to the stories that
                             we tell ourselves about our lives. Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
                             magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
@@ -25,7 +25,7 @@ function Home() {
                             nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
                             culpa voluptate enim cillum occaecat magna officia.</p>
                             <div>
-                                <p class="text-center">
+                                <p className="text-center">
                                     <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
                                         Get in touch to set up a FREE consultation
                                     </a>
@@ -41,9 +41,9 @@ function Home() {
                     </div>
 
 
-                    <div class="col-5 row">
-                        <div class="par2rightA">
-                            <img src={"/images/cin_headshot.jpeg"} class="img-fluid"/>
+                    <div className="col-5 row">
+                        <div className="par2rightA">
+                            <img src={"/images/cin_headshot.jpeg"} className="img-fluid"/>
                         </div>
 
 
@@ -59,11 +59,11 @@ function Home() {
             <br/>
             <hr/>
 
-            <div class="container" id="WhoThisIsFor">
-                <div class="row">
+            <div className="container" id="WhoThisIsFor">
+                <div className="row">
                     <h4>Who is this for?</h4>
                 </div>
-                <div class="row par1">
+                <div className="row par1">
                     <p> Are you dealing with challenges or problems that make you
                         feel like you are not in control of your own narrative?
                         When you talk to yourself, are you sometimes less than
@@ -85,11 +85,11 @@ function Home() {
                     </p>
                 </div>
 
-                <div class="row">
-                    <div class="col-7 mt-2 par2left">
-                        <img src={"/images/rain.jpeg"} class="img-fluid"/>
+                <div className="row">
+                    <div className="col-7 mt-2 par2left">
+                        <img src={"/images/rain.jpeg"} className="img-fluid"/>
                     </div>
-                    <div class="col-5 par2rightB">
+                    <div className="col-5 par2rightB">
                         <p>
                         <span style={{color:"#7a7d7b", fontSize:"larger"}}>
                         We specialize in treating:</span><br/>
@@ -104,8 +104,8 @@ function Home() {
                             <p>
                                 <span style={{color:"#7a7d7b", fontSize:"larger"}}>
                                 Additional Areas of Expertise:</span><br/>
-                                <div class="row">
-                                <ul class="col-6">
+                                <div className="row">
+                                <ul className="col-6">
                                     <br/>
                                     <li>ADHD</li>
                                     <li>Child</li>
@@ -118,7 +118,7 @@ function Home() {
                                     <li>Racial Identity</li>
                                 </ul>
 
-                                <ul class="col-6">
+                                <ul className="col-6">
                                     <br/>
                                     <li>Relationship Issues</li>
                                     <li>School Issues</li>
@@ -135,7 +135,7 @@ function Home() {
 
                         </div>
                         <div>
-                                <p class="text-center">
+                                <p className="text-center">
                                         Find out how I can help you take control:
                                     <br/>
                                     <br/>
@@ -156,7 +156,7 @@ function Home() {
             <br/>
             <hr/>
 
-            <div class="container" id="HowICanHelp">
+            <div className="container" id="HowICanHelp">
                 <h4>How can we help?</h4>
                 <p>My approach to treatment is to provide a safe and protected
                     space to help you nurture and develop your most authentic
@@ -170,7 +170,7 @@ function Home() {
             <br/>
             <hr/>
 
-            <div class="container" id="WhyUs">
+            <div className="container" id="WhyUs">
                 <h4>Why us?</h4>
                 <p>I have over ten years of experience working with adolescents
                     and adults on a variety of concerns, such as trauma,
