@@ -1,9 +1,9 @@
 
-function Skills() {
+function Resources() {
 
 
     return (
-      <div className="Skills">
+      <div className="Resources">
         <br></br>
         <h2>Skills</h2>
         <br></br>
@@ -17,4 +17,4 @@ function Skills() {
     );
   }
 
-export default Skills;
+export default Resources;

@@ -16,15 +16,36 @@ function Home() {
                 <div className="row">
                     <div className="col-7 par2left">
                         <p>As a therapist, I think it’s important to pay attention to the stories that
-                            we tell ourselves about our lives. Sint officia consectetur nostrud eiusmod ex irure deserunt in ad cillum
-                            magna in dolor. Veniam enim laborum consequat ut in magna anim laboris
-                            proident. Ad sit nisi ut cupidatat. Anim nostrud elit labore irure adipisicing
-                            excepteur culpa voluptate enim cillum occaecat magna officia. Sint officia
-                            consectetur nostrud eiusmod ex irure deserunt in ad cillum magna in dolor.
-                            Veniam enim laborum consequat ut in magna anim laboris proident. Ad sit
-                            nisi ut cupidatat. Anim nostrud elit labore irure adipisicing excepteur
-                            culpa voluptate enim cillum occaecat magna officia.</p>
-                            <div>
+                            we tell ourselves about our lives.</p>
+                        <p>Cynthia Cabral, Ph.D. (pronouns: they/she) is a clinical psychologist
+                            with a private practice in Brooklyn, New York, treating adolescents and
+                             adults presenting with depression, anxiety, trauma, self-harm behaviors,
+                             and substance use concerns using a collaborative, client-centered approach
+                             that incorporates Cognitive Behavioral Therapy (CBT) and Motivational
+                             Interviewing (MI) frameworks.
+                        </p>
+
+                        <p>Previously, Dr. Cabral served as the Counseling Center Director at St.
+                            Joseph’s University in Brooklyn, as well as the  Clinical Director at PRIDE
+                            (Promoting Resilience, Intersectionality, Diversity, and Equity) Research
+                            Consortium affiliated with Hunter College. At PRIDE, Dr. Cabral provided
+                            clinical supervisory support for short-term manualized interventions intended
+                            to reduce HIV transmission and risky sexual behavior with at-risk populations
+                            such as men who have sex with men and transgender emerging adults.
+                        </p>
+                        <p>Dr. Cabral received their doctoral degree from St. John’s University,
+                                where their research fellowship focused on the assessment and treatment
+                                of trauma in racial/ethnic minority communities throughout Western Queens.
+                                They have provided clinical treatment to adolescents in day treatment
+                                settings with co-occurring substance use and mental health disorders,
+                                adolescent survivors of physical and sexual abuse, and students in
+                                school-based settings with a variety of mental health concerns using
+                                evidence based, trauma-informed, and culturally competent treatment
+                                interventions. In doing so, Dr. Cabral has developed expertise in
+                                trauma-informed care and an understanding of the relationship between
+                                identity development, trauma, and health outcomes.
+                        </p>
+                    <div>
                                 <p className="text-center">
                                     <a href="wwww.google.com" style={{color:"#7a7d7b"}}>
                                         Get in touch to set up a FREE consultation

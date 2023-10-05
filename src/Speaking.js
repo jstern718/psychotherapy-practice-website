@@ -1,13 +1,13 @@
 import React from "react"
 
-function Resume() {
+function Speaking() {
 
 
     return (
-      <div className="Resume">
+      <div className="Speaking">
         <p>resume</p>
       </div>
     );
   }
 
-export default Resume;
+export default Speaking;
