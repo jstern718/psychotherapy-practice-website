@@ -8,6 +8,7 @@ import './App.css';
 import Resources from "./Resources";
 import Speaking from "./Speaking";
 import About from "./About";
+import Contact from "./Contact";
 import Home from "./Home";
 import NavBar from "./NavBar";
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/about" element={<About/>} />
                 <Route path="/speaking" element={<Speaking/>} />
                 <Route path="/resources" element={<Resources/>} />
+                <Route path="/contact" element={<Contact/>} />
                 <Route path="/" element={<Home/>} />
             </Routes>
         </BrowserRouter>

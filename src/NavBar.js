@@ -1,6 +1,5 @@
 import React from "react"
 import { NavLink} from "react-router-dom";
-import { NavHashLink } from 'react-router-hash-link';
 import "./navbar.css";
 
 function NavBar() {
@@ -19,51 +18,39 @@ function NavBar() {
                     </div>
                     <div className="collapse navbar-collapse ml-n4 p-6 bg-dark" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
+                            <li className="nav-item m-1">
                                 <NavLink to="/" className="hamburger-text m-3" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav"> Home </NavLink>
                             </li>
                             <hr/>
                             <li className="nav-item m-1">
-                                <NavHashLink to="/#WhoThisIsFor" className="hamburger-text" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav"> Who's This For </NavHashLink>
-                            </li>
-                            <hr/>
-                            <li className="nav-item m-1">
-                                <NavHashLink to="/#HowICanHelp" className="hamburger-text" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav"> How It Helps </NavHashLink>
-                            </li>
-                            <hr/>
-                            <li className="nav-item m-1">
-                                <NavLink to="/Projects" className="hamburger-text" data-bs-toggle="collapse"
+                                <NavLink to="/About" className="hamburger-text" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav"> About Me </NavLink>
                             </li>
                             <hr/>
                             <li className="nav-item m-1">
-                                <NavLink to="/Projects" className="hamburger-text" data-bs-toggle="collapse"
+                                <NavLink to="/Resources" className="hamburger-text" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav"> Resources </NavLink>
                             </li>
                             <hr/>
                             <li className="nav-item m-1">
-                                <NavLink to="/Projects"
+                                <NavLink to="/Speaking"
                                 className="hamburger-text"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav"> Public Speaking </NavLink>
+                            </li>
+                            <hr/>
+                            <li className="nav-item m-1">
+                                <NavLink to="/Contact"
+                                className="hamburger-text"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav"> Contact </NavLink>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-                {/* <div>
-                    <nav className="NavBar navbar-expand-lg navbar navbar-custom container-fluid justify-content-start">
-                        <NavLink to="/" className={({ isActive }) => isActive ? "active navbar-text" : "navbar-text"}> Home </NavLink>
-                        <NavHashLink to="/#WhoThisIsFor" className="navbar-text"> Who's This For </NavHashLink>
-                        <NavHashLink to="/#HowICanHelp" className="navbar-text"> How It Helps </NavHashLink>
-                        <NavLink to="/Projects" className="navbar-text"> About Me </NavLink>
-                        <NavLink to="/Projects" className="navbar-text"> Resources </NavLink>
-                        <NavLink to="/Projects" className="navbar-text"> Public Speaking </NavLink>
-                    </nav>;
-                </div> */}
+
 
 
         </div>
