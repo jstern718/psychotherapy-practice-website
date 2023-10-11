@@ -91,11 +91,18 @@ function Home() {
                                         How I Can Help
                                     </h3>
                                     <p className="subpar">
-                                        In our work together, I would use a client-centered,
-                                        collaborative approach to identify the parts of your story
-                                        that may need “editing” and then address those areas using
+                                        In our work together, I would use a therapeutic approach
+                                        that is both client-centered and collaborative.
+                                        We would work together to identify the parts of your story
+                                        that may need “editing”. Then we address those areas using
                                         evidence-based, trauma informed, culturally sensitive
                                         therapeutic approaches.
+                                    </p>
+                                    <p>
+                                        The most widely used evidence-based treament is known as Cognitive
+                                        Behavioral Therapy (CBT). CBT is a really usefull tool, but it is
+                                        only one tool in our toolbox. I may also draw on a number of other
+                                        treatment methods as well.
                                     </p>
                                     <blockquote>
                                         <p className="text-start pullquote row">
@@ -108,9 +115,9 @@ function Home() {
 
                                     </blockquote>
                                     <p>
-                                        The most popularly known evidence-based treament is Cognitive Behavioral Therapy,
-                                        but I draw on a number of other treatment methods as well. These can include: mindfullness,
-                                        motivational interviewing, dialectical behavorial therapy, acceptance and commitment therapy,
+                                        These methods can include: mindfullness,
+                                        motivational interviewing (MI), dialectical
+                                        behavorial therapy (DBT), acceptance and commitment therapy (ACT),
                                         and psychoanalysis.
                                     </p>
                                 </div>
@@ -118,12 +125,13 @@ function Home() {
                         </div>
                         <hr></hr>
                         <div className="par row">
-                            <h3 className="text-center subhead">
-                                    Why Come To Therapy Here?
-                            </h3>
+
                             <div className="headshot col">
                                 <img src={"/images/sad_woman.jpg"} className="img-fluid"/>
                             </div>
+                            <h3 className="text-center subhead">
+                                    Why Come To Therapy Here?
+                            </h3>
                             <div className="col">
 
                                 <p className="subpar">
@@ -146,13 +154,12 @@ function Home() {
 
                         <div className="col-5 par2rightB">
                             <div>
-                                <span className="subhead">
+                                <span className="subhead fs-4">
                                     I specialize in treating:</span><br/>
                                 <ul>
-                                <br/>
-                                <li>Anxiety</li>
-                                <li>Trauma and PTSD</li>
-                                <li>Depression</li>
+                                    <li className = "fs-5">Anxiety</li>
+                                    <li className = "fs-5">Trauma and PTSD</li>
+                                    <li className = "fs-5">Depression</li>
                                 </ul>
                             </div>
                             <div>
